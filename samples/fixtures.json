@@ -1,0 +1,121 @@
+{
+  "f72d4cf9c26c8638462d2814be0ee66e69bed69bb520580530ffc9b8679c0df2": {
+    "brand_name": {
+      "value": "OLD TOM DISTILLERY"
+    },
+    "class_type": {
+      "value": "Kentucky Straight Bourbon Whiskey"
+    },
+    "alcohol_content": {
+      "value": "45% Alc./Vol. (90 Proof)"
+    },
+    "net_contents": {
+      "value": "750 mL"
+    }
+  },
+  "d8d2f2cd0d6ba6c4f4422a40cd9bab7fa8a13346d4717eaf0dce87c2928e785d": {
+    "producer_name": {
+      "value": "Old Tom Distillery"
+    },
+    "producer_address": {
+      "value": "123 Example Lane, Louisville, KY 40202"
+    },
+    "country_of_origin": {
+      "value": null
+    },
+    "warning": {
+      "value": "GOVERNMENT WARNING: (1) According to the Surgeon General, women should not drink alcoholic beverages during pregnancy because of the risk of birth defects. (2) Consumption of alcoholic beverages impairs your ability to drive a car or operate machinery, and may cause health problems."
+    },
+    "heading_bold": "yes",
+    "body_not_bold": "yes",
+    "warning_separate": "yes",
+    "warning_legible": "yes"
+  },
+  "553e960906d3addfa83520b6f0505db500932c6c19a120ab173061d4840e9390": {
+    "brand_name": {
+      "value": "OLD TOM DISTILLERY"
+    },
+    "class_type": {
+      "value": "Kentucky Straight Bourbon Whiskey"
+    },
+    "alcohol_content": {
+      "value": "40% Alc./Vol. (80 Proof)"
+    },
+    "net_contents": {
+      "value": "750 mL"
+    }
+  },
+  "f18084a48c49771fa32b805800b1a43e637e579875e9c6ebb9931812814e6153": {
+    "producer_name": {
+      "value": "Old Tom Distillery"
+    },
+    "producer_address": {
+      "value": "123 Example Lane, Louisville, KY 40202"
+    },
+    "country_of_origin": {
+      "value": null
+    },
+    "warning": {
+      "value": "GOVERNMENT WARNING: (1) According to the Surgeon General, women should not drink alcoholic beverages during pregnancy because of the risk of birth defects. (2) Consumption of alcoholic beverages impairs your ability to drive a car or operate machinery and may cause health problems."
+    },
+    "heading_bold": "yes",
+    "body_not_bold": "yes",
+    "warning_separate": "yes",
+    "warning_legible": "yes"
+  },
+  "8294ae39f25e627fc0563d0acdcf08bce5bf4ea4dade4e80c0aae8f101e8d61e": {
+    "producer_name": {
+      "value": "Old Tom Distillery"
+    },
+    "producer_address": {
+      "value": "123 Example Lane, Louisville, KY 40202"
+    },
+    "country_of_origin": {
+      "value": null
+    },
+    "warning": {
+      "value": "Government Warning: (1) According to the Surgeon General, women should not drink alcoholic beverages during pregnancy because of the risk of birth defects. (2) Consumption of alcoholic beverages impairs your ability to drive a car or operate machinery, and may cause health problems."
+    },
+    "heading_bold": "no",
+    "body_not_bold": "yes",
+    "warning_separate": "yes",
+    "warning_legible": "yes"
+  },
+  "520ba77de35bad234061c33b3ef51c7baa9c2979f258c31163a87e8a0a108afe": {
+    "brand_name": {
+      "value": "DOMAINE SAMPLE"
+    },
+    "class_type": {
+      "value": "Red Wine"
+    },
+    "alcohol_content": {
+      "value": "12.5% Alc./Vol."
+    },
+    "net_contents": {
+      "value": "0.75 L"
+    }
+  },
+  "385bfa1be4e0f09e3e28f4afea36daa65fe41ffab974edee86981a530227e02e": {
+    "producer_name": {
+      "value": "Domaine Sample"
+    },
+    "producer_address": {
+      "value": "10 Example Road, Bordeaux, France"
+    },
+    "country_of_origin": {
+      "value": "France"
+    },
+    "warning": {
+      "value": "GOVERNMENT WARNING: (1) According to the Surgeon General, women should not drink alcoholic beverages during pregnancy because of the risk of birth defects. (2) Consumption of alcoholic beverages impairs your ability to drive a car or operate machinery, and may cause health problems."
+    },
+    "heading_bold": "yes",
+    "body_not_bold": "yes",
+    "warning_separate": "yes",
+    "warning_legible": "yes"
+  },
+  "13da8af44ea1945b3e9e60969bf39b42eeae900f8e05d01b5e8227137a030697": {
+    "issues": [
+      "Back label is deliberately blurred; warning and producer information are not readable."
+    ]
+  }
+}

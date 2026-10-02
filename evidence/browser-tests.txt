@@ -1,0 +1,48 @@
+PASS Individual form renders with explicit sample-mode disclosure
+PASS Sample populates editable expected values and two image previews
+PASS Actual API results show green normalized matches and red physical-size review
+PASS Review-only filter shows the right checks
+PASS Individual CSV export contains full results and mode provenance
+PASS Editing input invalidates stale results; changed brand is flagged
+PASS Warning punctuation discrepancy and expected/observed diff are visible
+PASS Unsupported uploads clear stale evidence and block submission
+PASS Simulated provider timeout surfaces an error, not successful results
+PASS Sample CSV validates four applications with explicit image mapping
+PASS Batch completes four real local API requests and exposes individual findings
+PASS Batch detail preserves the correct application-to-result association
+PASS Batch export includes every application and every check
+PASS Malformed CSV is blocked without a partially accepted queue
+PASS Queue stop preserves outcomes and offers retry without new scheduling
+PASS A simulated one-row timeout does not stop other batch applications
+PASS Retry targets only unfinished rows and completes the queue
+PASS 390-pixel mobile layout fits viewport; wide results tables scroll locally
+PASS No uncaught browser JavaScript exceptions
+{
+  "status": "passed",
+  "checks": 19,
+  "check_names": [
+    "Individual form renders with explicit sample-mode disclosure",
+    "Sample populates editable expected values and two image previews",
+    "Actual API results show green normalized matches and red physical-size review",
+    "Review-only filter shows the right checks",
+    "Individual CSV export contains full results and mode provenance",
+    "Editing input invalidates stale results; changed brand is flagged",
+    "Warning punctuation discrepancy and expected/observed diff are visible",
+    "Unsupported uploads clear stale evidence and block submission",
+    "Simulated provider timeout surfaces an error, not successful results",
+    "Sample CSV validates four applications with explicit image mapping",
+    "Batch completes four real local API requests and exposes individual findings",
+    "Batch detail preserves the correct application-to-result association",
+    "Batch export includes every application and every check",
+    "Malformed CSV is blocked without a partially accepted queue",
+    "Queue stop preserves outcomes and offers retry without new scheduling",
+    "A simulated one-row timeout does not stop other batch applications",
+    "Retry targets only unfinished rows and completes the queue",
+    "390-pixel mobile layout fits viewport; wide results tables scroll locally",
+    "No uncaught browser JavaScript exceptions"
+  ],
+  "browser_errors": [],
+  "mode": "in-memory React source + real localhost API bridge",
+  "live_ai_tested": false,
+  "public_deployment_tested": false
+}

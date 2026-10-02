@@ -1,0 +1,91 @@
+{
+  "generated_at_utc": "2026-10-02T02:26:47.969363+00:00",
+  "mode": "demo",
+  "interpretation": "Fixture smoke test. NOT an AI accuracy or AI latency benchmark.",
+  "requests": 7,
+  "passed_scenario_checks": 7,
+  "errors": 0,
+  "false_matches_on_explicit_test_cases": 0,
+  "successful_request_median_ms": 51.4,
+  "successful_request_p95_ms": 54.7,
+  "live_five_second_target_met": null,
+  "results": [
+    {
+      "scenario": "old-tom",
+      "repeat": 1,
+      "ok": true,
+      "mode": "demo",
+      "model": "synthetic-fixtures",
+      "elapsed_ms": 52.6,
+      "extraction_ms": 0.1,
+      "false_matches": 0,
+      "discrepancies": {}
+    },
+    {
+      "scenario": "wrong-abv",
+      "repeat": 1,
+      "ok": true,
+      "mode": "demo",
+      "model": "synthetic-fixtures",
+      "elapsed_ms": 54.7,
+      "extraction_ms": 0.1,
+      "false_matches": 0,
+      "discrepancies": {}
+    },
+    {
+      "scenario": "warning-typo",
+      "repeat": 1,
+      "ok": true,
+      "mode": "demo",
+      "model": "synthetic-fixtures",
+      "elapsed_ms": 51.4,
+      "extraction_ms": 0.2,
+      "false_matches": 0,
+      "discrepancies": {}
+    },
+    {
+      "scenario": "title-case",
+      "repeat": 1,
+      "ok": true,
+      "mode": "demo",
+      "model": "synthetic-fixtures",
+      "elapsed_ms": 51.8,
+      "extraction_ms": 0.1,
+      "false_matches": 0,
+      "discrepancies": {}
+    },
+    {
+      "scenario": "front-only",
+      "repeat": 1,
+      "ok": true,
+      "mode": "demo",
+      "model": "synthetic-fixtures",
+      "elapsed_ms": 23.5,
+      "extraction_ms": 0.1,
+      "false_matches": 0,
+      "discrepancies": {}
+    },
+    {
+      "scenario": "unreadable",
+      "repeat": 1,
+      "ok": true,
+      "mode": "demo",
+      "model": "synthetic-fixtures",
+      "elapsed_ms": 51.0,
+      "extraction_ms": 0.1,
+      "false_matches": 0,
+      "discrepancies": {}
+    },
+    {
+      "scenario": "import",
+      "repeat": 1,
+      "ok": true,
+      "mode": "demo",
+      "model": "synthetic-fixtures",
+      "elapsed_ms": 46.7,
+      "extraction_ms": 0.1,
+      "false_matches": 0,
+      "discrepancies": {}
+    }
+  ]
+}

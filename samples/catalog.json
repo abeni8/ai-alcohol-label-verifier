@@ -1,0 +1,148 @@
+[
+  {
+    "id": "old-tom",
+    "title": "Old Tom \u00b7 matching fields",
+    "description": "Field values match; printed size still requires a human.",
+    "application": {
+      "application_id": "OLD-TOM",
+      "beverage_type": "distilled_spirits",
+      "imported": false,
+      "brand_name": "Old Tom Distillery",
+      "class_type": "Kentucky Straight Bourbon Whiskey",
+      "abv": "45",
+      "net_contents": "750 mL",
+      "producer_name": "Old Tom Distillery",
+      "producer_address": "123 Example Lane, Louisville, KY 40202",
+      "country_of_origin": ""
+    },
+    "filenames": [
+      "old-tom-front.png",
+      "old-tom-back.png"
+    ]
+  },
+  {
+    "id": "wrong-abv",
+    "title": "Alcohol percentage mismatch",
+    "description": "Application says 45%; artwork says 40%.",
+    "application": {
+      "application_id": "WRONG-ABV",
+      "beverage_type": "distilled_spirits",
+      "imported": false,
+      "brand_name": "Old Tom Distillery",
+      "class_type": "Kentucky Straight Bourbon Whiskey",
+      "abv": "45",
+      "net_contents": "750 mL",
+      "producer_name": "Old Tom Distillery",
+      "producer_address": "123 Example Lane, Louisville, KY 40202",
+      "country_of_origin": ""
+    },
+    "filenames": [
+      "wrong-abv-front.png",
+      "old-tom-back.png"
+    ]
+  },
+  {
+    "id": "warning-typo",
+    "title": "Warning punctuation error",
+    "description": "The comma after 'machinery' is missing.",
+    "application": {
+      "application_id": "WARNING-TYPO",
+      "beverage_type": "distilled_spirits",
+      "imported": false,
+      "brand_name": "Old Tom Distillery",
+      "class_type": "Kentucky Straight Bourbon Whiskey",
+      "abv": "45",
+      "net_contents": "750 mL",
+      "producer_name": "Old Tom Distillery",
+      "producer_address": "123 Example Lane, Louisville, KY 40202",
+      "country_of_origin": ""
+    },
+    "filenames": [
+      "old-tom-front.png",
+      "warning-typo-back.png"
+    ]
+  },
+  {
+    "id": "title-case",
+    "title": "Warning heading formatting",
+    "description": "The heading is title case and not bold.",
+    "application": {
+      "application_id": "TITLE-CASE",
+      "beverage_type": "distilled_spirits",
+      "imported": false,
+      "brand_name": "Old Tom Distillery",
+      "class_type": "Kentucky Straight Bourbon Whiskey",
+      "abv": "45",
+      "net_contents": "750 mL",
+      "producer_name": "Old Tom Distillery",
+      "producer_address": "123 Example Lane, Louisville, KY 40202",
+      "country_of_origin": ""
+    },
+    "filenames": [
+      "old-tom-front.png",
+      "title-case-back.png"
+    ]
+  },
+  {
+    "id": "front-only",
+    "title": "Missing back-label evidence",
+    "description": "The warning is not present in the supplied image set.",
+    "application": {
+      "application_id": "FRONT-ONLY",
+      "beverage_type": "distilled_spirits",
+      "imported": false,
+      "brand_name": "Old Tom Distillery",
+      "class_type": "Kentucky Straight Bourbon Whiskey",
+      "abv": "45",
+      "net_contents": "750 mL",
+      "producer_name": "Old Tom Distillery",
+      "producer_address": "123 Example Lane, Louisville, KY 40202",
+      "country_of_origin": ""
+    },
+    "filenames": [
+      "old-tom-front.png"
+    ]
+  },
+  {
+    "id": "unreadable",
+    "title": "Unreadable back label",
+    "description": "Uncertainty must not turn into a match.",
+    "application": {
+      "application_id": "UNREADABLE",
+      "beverage_type": "distilled_spirits",
+      "imported": false,
+      "brand_name": "Old Tom Distillery",
+      "class_type": "Kentucky Straight Bourbon Whiskey",
+      "abv": "45",
+      "net_contents": "750 mL",
+      "producer_name": "Old Tom Distillery",
+      "producer_address": "123 Example Lane, Louisville, KY 40202",
+      "country_of_origin": ""
+    },
+    "filenames": [
+      "old-tom-front.png",
+      "unreadable-back.png"
+    ]
+  },
+  {
+    "id": "import",
+    "title": "Imported wine \u00b7 matching fields",
+    "description": "Includes origin; 0.75 L and 750 mL compare as equal quantities.",
+    "application": {
+      "application_id": "IMPORT-001",
+      "beverage_type": "wine",
+      "imported": true,
+      "brand_name": "Domaine Sample",
+      "class_type": "Red Wine",
+      "abv": "12.5",
+      "net_contents": "750 mL",
+      "producer_name": "Domaine Sample",
+      "producer_address": "10 Example Road, Bordeaux, France",
+      "country_of_origin": "France"
+    },
+    "filenames": [
+      "import-front.png",
+      "import-back.png"
+    ]
+  }
+]

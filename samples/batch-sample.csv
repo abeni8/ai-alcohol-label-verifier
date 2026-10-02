@@ -1,0 +1,5 @@
+application_id,beverage_type,imported,brand_name,class_type,abv,net_contents,producer_name,producer_address,country_of_origin,image_files
+OLD-TOM,distilled_spirits,false,Old Tom Distillery,Kentucky Straight Bourbon Whiskey,45,750 mL,Old Tom Distillery,"123 Example Lane, Louisville, KY 40202",,old-tom-front.png|old-tom-back.png
+WRONG-ABV,distilled_spirits,false,Old Tom Distillery,Kentucky Straight Bourbon Whiskey,45,750 mL,Old Tom Distillery,"123 Example Lane, Louisville, KY 40202",,wrong-abv-front.png|old-tom-back.png
+WARNING-TYPO,distilled_spirits,false,Old Tom Distillery,Kentucky Straight Bourbon Whiskey,45,750 mL,Old Tom Distillery,"123 Example Lane, Louisville, KY 40202",,old-tom-front.png|warning-typo-back.png
+IMPORT-001,wine,true,Domaine Sample,Red Wine,12.5,750 mL,Domaine Sample,"10 Example Road, Bordeaux, France",France,import-front.png|import-back.png

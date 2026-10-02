@@ -1,0 +1,178 @@
+TAP version 13
+# Subtest: CSV neutralizes formula prefix "=1+1"
+ok 1 - CSV neutralizes formula prefix "=1+1"
+  ---
+  duration_ms: 0.924484
+  type: 'test'
+  ...
+# Subtest: CSV neutralizes formula prefix "+SUM(A1:A2)"
+ok 2 - CSV neutralizes formula prefix "+SUM(A1:A2)"
+  ---
+  duration_ms: 0.113832
+  type: 'test'
+  ...
+# Subtest: CSV neutralizes formula prefix "-1+2"
+ok 3 - CSV neutralizes formula prefix "-1+2"
+  ---
+  duration_ms: 0.151338
+  type: 'test'
+  ...
+# Subtest: CSV neutralizes formula prefix "@SUM(A1:A2)"
+ok 4 - CSV neutralizes formula prefix "@SUM(A1:A2)"
+  ---
+  duration_ms: 0.074983
+  type: 'test'
+  ...
+# Subtest: CSV neutralizes formula prefix "  =cmd"
+ok 5 - CSV neutralizes formula prefix "  =cmd"
+  ---
+  duration_ms: 0.072319
+  type: 'test'
+  ...
+# Subtest: CSV neutralizes formula prefix "\\t=cmd"
+ok 6 - CSV neutralizes formula prefix "\\t=cmd"
+  ---
+  duration_ms: 0.054161
+  type: 'test'
+  ...
+# Subtest: CSV neutralizes formula prefix "\\r=cmd"
+ok 7 - CSV neutralizes formula prefix "\\r=cmd"
+  ---
+  duration_ms: 0.095093
+  type: 'test'
+  ...
+# Subtest: CSV quotes "Brand"
+ok 8 - CSV quotes "Brand"
+  ---
+  duration_ms: 0.12615
+  type: 'test'
+  ...
+# Subtest: CSV quotes "A \\"quoted\\" name"
+ok 9 - CSV quotes "A \\"quoted\\" name"
+  ---
+  duration_ms: 0.209926
+  type: 'test'
+  ...
+# Subtest: CSV quotes "a,b"
+ok 10 - CSV quotes "a,b"
+  ---
+  duration_ms: 0.754268
+  type: 'test'
+  ...
+# Subtest: CSV quotes null
+ok 11 - CSV quotes null
+  ---
+  duration_ms: 0.116656
+  type: 'test'
+  ...
+# Subtest: CSV quotes "Line 1\\nLine 2"
+ok 12 - CSV quotes "Line 1\\nLine 2"
+  ---
+  duration_ms: 0.074913
+  type: 'test'
+  ...
+# Subtest: CSV export contains real results and failures, not just successes
+ok 13 - CSV export contains real results and failures, not just successes
+  ---
+  duration_ms: 0.182365
+  type: 'test'
+  ...
+# Subtest: Upload rules [["a.png","image/png",20]]
+ok 14 - Upload rules [["a.png","image/png",20]]
+  ---
+  duration_ms: 0.144107
+  type: 'test'
+  ...
+# Subtest: Upload rules [["A.JPG","image/jpeg",20]]
+ok 15 - Upload rules [["A.JPG","image/jpeg",20]]
+  ---
+  duration_ms: 0.07937
+  type: 'test'
+  ...
+# Subtest: Upload rules []
+ok 16 - Upload rules []
+  ---
+  duration_ms: 0.03353
+  type: 'test'
+  ...
+# Subtest: Upload rules [["x.pdf","application/pdf",20]]
+ok 17 - Upload rules [["x.pdf","application/pdf",20]]
+  ---
+  duration_ms: 0.032499
+  type: 'test'
+  ...
+# Subtest: Upload rules [["x.png","text/plain",20]]
+ok 18 - Upload rules [["x.png","text/plain",20]]
+  ---
+  duration_ms: 0.030506
+  type: 'test'
+  ...
+# Subtest: Upload rules [["x.png","image/png",0]]
+ok 19 - Upload rules [["x.png","image/png",0]]
+  ---
+  duration_ms: 0.027812
+  type: 'test'
+  ...
+# Subtest: Upload rules [["x.png","image/png",5242881]]
+ok 20 - Upload rules [["x.png","image/png",5242881]]
+  ---
+  duration_ms: 0.027621
+  type: 'test'
+  ...
+# Subtest: Upload rules [["a.png","image/png",20],["a.png","image/png",20]]
+ok 21 - Upload rules [["a.png","image/png",20],["a.png","image/png",20]]
+  ---
+  duration_ms: 0.030686
+  type: 'test'
+  ...
+# Subtest: Upload rules [["1.png","image/png",20],["2.png","image/png",20],["3.png","image/png",20],["4.png","image/png",20]]
+ok 22 - Upload rules [["1.png","image/png",20],["2.png","image/png",20],["3.png","image/png",20],["4.png","image/png",20]]
+  ---
+  duration_ms: 0.028813
+  type: 'test'
+  ...
+# Subtest: Queue respects concurrency and completes every item exactly once
+ok 23 - Queue respects concurrency and completes every item exactly once
+  ---
+  duration_ms: 38.439248
+  type: 'test'
+  ...
+# Subtest: One failed application does not stop the batch
+ok 24 - One failed application does not stop the batch
+  ---
+  duration_ms: 0.84203
+  type: 'test'
+  ...
+# Subtest: Cancellation stops scheduling queued items
+ok 25 - Cancellation stops scheduling queued items
+  ---
+  duration_ms: 0.230378
+  type: 'test'
+  ...
+# Subtest: Already-aborted queue submits nothing
+ok 26 - Already-aborted queue submits nothing
+  ---
+  duration_ms: 0.15238
+  type: 'test'
+  ...
+# Subtest: Queue supports the 300-row limit without losing items
+ok 27 - Queue supports the 300-row limit without losing items
+  ---
+  duration_ms: 0.728228
+  type: 'test'
+  ...
+# Subtest: Queue rejects invalid concurrency
+ok 28 - Queue rejects invalid concurrency
+  ---
+  duration_ms: 0.256367
+  type: 'test'
+  ...
+1..28
+# tests 28
+# suites 0
+# pass 28
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 96.135888

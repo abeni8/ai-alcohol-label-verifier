@@ -1,0 +1,32 @@
+# Deployment configuration, NOT evidence that a service has been deployed.
+# This selects PAID compute. Review the provider's current price before applying.
+# A 2 GB instance leaves room for bounded concurrent image decoding.
+services:
+  - type: web
+    name: label-review
+    runtime: python
+    plan: 1c-2g
+    region: oregon
+    buildCommand: pip install -r requirements.txt
+    startCommand: python scripts/run.py --host 0.0.0.0
+    healthCheckPath: /api/ready
+    autoDeployTrigger: off
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.13.5
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: PROVIDER
+        value: openai
+      - key: OPENAI_MODEL
+        value: gpt-4.1-mini
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: REVIEW_ACCESS_TOKEN
+        generateValue: true
+      - key: AI_TIMEOUT_SECONDS
+        value: "12"
+      - key: MAX_CONCURRENT_REQUESTS
+        value: "3"
+      - key: REQUESTS_PER_MINUTE
+        value: "180"
