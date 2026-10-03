@@ -8,7 +8,7 @@ This is a review assistant, not an automated regulatory approval system.
 
 ## Application access
 
-**Hosted sample demo:** DEPLOYED_APPLICATION_URL  
+**Hosted sample demo:** https://ai-alcohol-label-verifier-6qc1.onrender.com
 **Source code:** [GitHub repository](https://github.com/abeni8/ai-alcohol-label-verifier)
 
 The sample demo runs in the browser without a local installation, OpenAI API key, API credits, or review access code. The interface displays **SAMPLE MODE**.
